@@ -1,0 +1,63 @@
+@import url(tp_dn.css) screen and (min-width: 768px);
+@import url(tp_sj.css) screen and (max-width: 768px);
+@charset 'utf-8';
+body {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+body #nav_cebian {
+  position: fixed;
+  right: 10px;
+  top: 40%;
+  z-index: 20;
+}
+body #nav_cebian li {
+  margin-bottom: 10px;
+  border-radius: 40px;
+}
+body #nav_cebian li a {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: none;
+}
+body #nav_cebian .active {
+  background-color: red;
+}
+body section {
+  width: 100%;
+  height: 600px;
+  border: 1px solid;
+}
+body #section0 .navbar-inverse {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+body #section0 .navbar-inverse .nav_left {
+  padding: 0;
+  border: 1px solid white;
+}
+body #section0 .navbar-inverse .nav_left img {
+  width: 100%;
+  height: 50px;
+  margin-top: -10px;
+}
+body #section0 .navbar-inverse .nav_center {
+  margin-top: 10px;
+  padding-left: 10%;
+  border: 1px solid white;
+}
+body #section0 .navbar-inverse .nav_right .xiala {
+  margin-top: 5px;
+  cursor: pointer;
+}
+body #section0 .navbar-inverse .nav_right .xiala .img2 {
+  height: 35px;
+}
+body #section0 .navbar-inverse .nav_right0 {
+  padding-right: 10%;
+}
+body #section0 .navbar-inverse .nav_right0 a {
+  color: white;
+}
